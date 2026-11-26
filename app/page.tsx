@@ -29,6 +29,7 @@ export default function Home() {
       </nav>
 
       {mode === "qr" ? <QrGenerator /> : <BarcodeGenerator />}
+      
     </main>
   );
 }
